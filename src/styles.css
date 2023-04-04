@@ -130,6 +130,7 @@
     margin-bottom: 32px;
     justify-content: flex-end;
     cursor: pointer;
+    padding-right: 32px;
 }
 .card-btn a{
     font-family: 'Inter';
@@ -141,4 +142,35 @@
 }
 .card-btn> img{
     width: 17px;
+}
+@media screen and (min-width: 576px) {
+    #landing{
+        max-width: 720px;
+    }
+    #landing-btn{
+        margin-bottom: 352px;
+    }
+    #newest-header{    
+        max-width: 720px;
+        font-size: 30px;
+        line-height: 36.31px;
+    }
+    #cards-home{
+        max-width: 720px;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .card{
+        width: calc((100%-40px-6px)/3);
+    }
+    .card-text-wrapper{
+        height: 305px;
+    }
+    .card-image> img{
+        width: 100%;
+        height: 352px;
+    }
+    .card-btn{
+        margin-top: 0px;
+    }
 }
