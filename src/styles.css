@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#landing-wrapper{
+    background: url("artjunks-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+#landing{
+    max-width: 360px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 32px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar-logo{
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 30.4px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+#navbar-toggle-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 4.37px;
+}
+#navbar-toggle-btn> div{
+    width: 26.25px;
+    height: 2.92px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+#landing-text{
+    margin-top: 216px;
+}
+#landing-bar{
+    width: 90px;
+    height: 15px;
+    background-color: #fff;
+}
+#landing-header{
+    font-family: 'Libre Caslon Display';
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+#landing-details{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 32px;
+}
+#landing-btn{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    margin-top: 32px;
+    background: none;
+    border: 1px solid white;
+    padding: 9px 27px;
+    border-radius: 10px;
+    margin-bottom: 310px;
+}
+#newest-header{    
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 58px;
+    max-width: 360px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 32px;
+}
+#cards-home{
+    max-width: 360px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 32px;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+}
+.card{
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+}
+.card-image> img{
+    width: 100%;
+    object-fit: cover;
+}
+.card-text-wrapper{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.card-date{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 35px;
+    color: #B7B7B7;
+}
+.card-paragraph{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 28px;
+}
+.card-btn{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 26px;
+    margin-bottom: 32px;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.card-btn a{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #D9852C;
+    text-decoration: none;
+}
+.card-btn> img{
+    width: 17px;
+}
